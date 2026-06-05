@@ -1,5 +1,5 @@
 <h1 align="center">
-CloudWatch: Web-Based Streaming & Entertainment Platform
+Cloud-Native Streaming and Entertainment Platform
 </h1>
 
 ---
@@ -8,9 +8,9 @@ CloudWatch: Web-Based Streaming & Entertainment Platform
 
 <div align="justify">
 
-CloudWatch is a real-time web-based video streaming platform that replicates the core functionalities of commercial-grade OTT services. Designed with a rich frontend and integrated backend, the platform supports user registration, authentication, profile management, multimedia content browsing, and dynamic interactions. Built for scalability and smooth user experience, CloudWatch mimics a modern streaming service interface — offering category-based exploration, trending content highlights, and detailed video previews.
+StreamHive is a cloud-native web-based video streaming platform that replicates the core functionalities of commercial-grade OTT services. Designed with a rich frontend and integrated backend, the platform supports user registration, authentication, profile management, multimedia content browsing, and dynamic interactions. Built for scalability and smooth user experience, StreamHive mimics a modern streaming service interface — offering category-based exploration, trending content highlights, and detailed video previews.
 
-Deployed live on AWS infrastructure, CloudWatch combines PHP-based backend logic with responsive frontend components to deliver a fast and visually appealing user experience across devices. The architecture is modular, allowing future integration with cloud-based media storage, authentication systems, and video delivery networks.
+Deployed live on AWS infrastructure, StreamHive combines PHP-based backend logic with responsive frontend components to deliver a fast and visually appealing user experience across devices. The architecture is modular, allowing future integration with cloud-based media storage, authentication systems, and video delivery networks.
 
 </div>
 
@@ -53,23 +53,23 @@ You can test this application locally before deployment using XAMPP or WAMP:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Bharadwaj-1953/CloudWatch.git
+   git clone https://github.com/Bharadwaj-1953/StreamHive.git
    ```
-2. Move the project into your PHP server’s root:
-- For XAMPP: ```htdocs/CloudWatch/```
-- For WAMP: ```www/CloudWatch/```
+2. Move the project into your PHP server's root:
+   - For XAMPP: `htdocs/StreamHive/`
+   - For WAMP: `www/StreamHive/`
 
 3. Open your browser at:
    ```
-   http://localhost/CloudWatch/index.html
+   http://localhost/StreamHive/index.html
    ```
 
-   ---
+---
 
 ## 📂 Project Structure
 
 ```bash
-CloudWatch/
+StreamHive/
 ├── index.html                  # Main landing page
 ├── login.php                   # Login form handler
 ├── signupvalidation.php        # Sign-up logic with form validation
